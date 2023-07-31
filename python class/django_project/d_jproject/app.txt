@@ -1,0 +1,34 @@
+to make app--> command
+in our project we will make 2 apps
+	user-->to handle user details and its work
+	blog--> to handle blog work
+python manage.py startup user
+
+d_jproject--> d_jproject
+		manage.py
+		user
+		   urls.py
+		   views.py
+		   admin.py
+		   apps.py
+		   modals.py
+		   tests.py
+		   __init__.py
+admin.py files is for admin
+	register your db_table here to show it to admin/admin_panel
+apps.py
+	configuration file where app name is written
+models.py
+	create sql table in this file
+tests.py
+	to run testcases on your project
+d_jproject.urls(we are writing urls here)
+ #now we have to redirect the request from d_project.urls to user.urls 
+
+make templates folder in user app to have the user app html pages in the folder
+c:/batches/online_batches/batch7_pm/djangoproject/d_jproject/user/templates
+Base_dir = c:/batches/online_batches/batch7_pm/djangoproject/d_jproject
+Base_dir + user/templates
+
+
+make static folder common to have static files of user app and blog app
